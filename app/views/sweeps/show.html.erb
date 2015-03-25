@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @sweep.title %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @sweep.date %>
+</p>
+
+<%= link_to 'Edit', edit_sweep_path(@sweep) %> |
+<%= link_to 'Back', sweeps_path %>
